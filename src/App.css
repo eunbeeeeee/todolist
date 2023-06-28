@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Orbit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Orbit&display=swap');
+
+.todo-items{
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 70px;
+  border-bottom: 1px dashed #999;
+  margin-bottom: 5px;
+  position: relative;
+}
+.scroll-container{
+  width: 450px;
+  overflow: scroll;
+  height: 420px;
+}
+.scroll-container::-webkit-scrollbar {
+	width: 7px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+	background: #ededed;
+	border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+	background: #999;
+}
+.main{
+  width: 470px;
+  height: 650px;
+  padding: 20px;
+  background-image:url(../public/img/todo_bg.png);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:60px;
+ 
+}
+.main input{
+  width: 300px;
+  height: 40px;
+  margin-left: 15%;
+  border-radius: 15px;
+  border: 0.1px solid #ddd;
+  margin-top: 30px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+}
+.main input:focus{
+  border: 1px solid tan;
+}
+.main button{
+  width: 50px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background: lightpink;
+  color: #fff;
+  border-radius: 20%;
+}
+.main button:hover{
+  background-color: #ededed;
+  color: pink;
+}
+h1{
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  margin-top: 5px;
+  font-size: 40px;
+}
+body{
+  background-image: url(../public/img/back.jpg);
+  background-size: 100%;
+}
+li{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+}
+.input:focus{
+  outline-color: #fff;
+  background-color: rgb(245, 234, 240);
+}
+.todo-items button{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  margin-left: 10px;
+}
